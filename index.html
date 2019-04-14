@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal collector</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+        
+            
+      
+    <div class="container">
+
+        <div class="row logo">
+                <a href="https://nautdrafter.bitbucket.org">Crystal<br>Collector</a>
+
+        </div>
+
+        <div class="row" id="container-row">
+                <div class="col-md-12"> 
+<div class="row">
+            <div class="col-md-1"> </div>
+           
+            <div class="col-md-10">
+                <div class="row">
+                <div class="col-md-8">
+                        <div class="row">
+                                <div class="col-md-9">     
+                    <h2 id="magic-num">Magic Number:</h2></div>
+                    <div class="col-md-3">  
+                    <span id="random-number">
+
+                    </span></div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                        <div class="col-md-6">
+                            <h6>Win:<span id="win">0</span></h6>
+                        </div>
+                        <div class="col-md-6"> <h6>Loss:<span id="loss">0</span></h6></div>
+                    </div>
+                    <div class="row">
+                            <h3>Your total score is <span id=totalscore></span></h3>
+                            </div>
+                        </div>
+                </div>
+               
+                <div class="row">
+                    <div class="col-md-3"> <a href="#" class="link" id="first-link"><img src="assets/images/crystal1.png" width="200px" height="200px"/></a></div>
+                    <div class="col-md-3"> <a href="#" class="link" id="second-link"><img src="assets/images/crystal2.png" width="200px" height="200px"/></a></div>
+                    <div class="col-md-3"><a href="#" class="link" id="third-link"><img src="assets/images/crystal3.png" width="200px" height="200px"/></a> </div>
+                    <div class="col-md-3"><a href="#" class="link" id="fourth-link"><img src="assets/images/crystal4.png" width="200px" height="200px"/></a> </div>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+        <br/>
+        <br/>
+        </div>
+            <div class="row">
+                    <h2>Instructions</h2>
+    
+                    <p>
+                            You will be given a random number at the start of the game.
+                            There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                            to your total score.
+                            You win the game by matching your score to the random number, you lose if your total score goes
+                            above your random number.The value of each crystal is hidden until you click on it.
+                            Each time when the game starts , the game will change the values of each crystal
+                    </p>
+                        
+                            
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
